@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Custom Omni Retail Customer Analysis Rules
+# ==========================================
+
+# Ignore large raw/processed datasets
+datasets/
+
+# Ignore pipeline output directories containing engineered data models
+**/outputs/
