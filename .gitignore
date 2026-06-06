@@ -226,3 +226,6 @@ datasets/
 
 # Ignore pipeline output directories containing engineered data models
 **/outputs/
+
+# Ignore large stacking classifier models (exceeding 100MB limit)
+**/models/*stacking_model.joblib
