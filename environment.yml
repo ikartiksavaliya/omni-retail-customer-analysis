@@ -1,0 +1,24 @@
+name: omni-retail-ml
+channels:
+  - rapidsai
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - streamlit
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - xgboost
+  - lightgbm
+  - optuna
+  - shap
+  - lime
+  - cupy
+  - pip
+  - pip:
+    - imbalanced-learn
+    - holidays
